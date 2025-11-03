@@ -9,10 +9,15 @@ It pulls a real-world, 5-letter word list from an open-source JSON file, so all 
 Here is an example of the game in action:
 
 ----------- WORDLE ----------- 
+
 🟡 L ⬜ O 🟡 S 🟡 E ⬜ R 
+
 🟢 L 🟢 O ⬜ O 🟢 S 🟡 E 
+
 🟢 L 🟢 O 🟡 S 🟡 E 🟢 S 
+
 🟢 L 🟢 O 🟢 E 🟢 S 🟢 S
+
 Used letters: R O 🎉 You guessed it! The word was LOESS.
 
 Play again? (Y/N)
