@@ -72,7 +72,7 @@ class WordleGame
     guess_chars = guess.chars
 
     # --- Check for Greens ---
-    guess.chars.each_with_index do |letter, i|
+    guess_chars.each_with_index do |letter, i|
       if letter == @secret_chars[i]
         feedback_display[i] = " 🟢 #{letter} "
         secret_pool[i] = nil
@@ -81,7 +81,7 @@ class WordleGame
     end
 
     # --- Check for Yellows & Grays ---
-    guess.chars.each_with_index do |letter, i|
+    guess_chars.each_with_index do |letter, i|
       next if feedback_display[i]
       if secret_pool.include?(letter)
         feedback_display[i] = " 🟡 #{letter} "
